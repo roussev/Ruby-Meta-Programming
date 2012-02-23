@@ -1,6 +1,8 @@
 Title: Writing Beautiful APIs and DSLs in Ruby
 Subtitle: Ruby Metaprogramming & Parallel RPC for Restful APIs
 
+Content: Ruby code from my talk on Ruby metaprogramming I gave at LinkedIn in July 2011
+
 Ruby object model
 - modules
 - singleton class
@@ -39,5 +41,5 @@ Writing beautiful DSLs
 Putting metaprogramming to work
 
 Restful services and API design
-- blocking I/O, threading, and parallelism
-- parallel rpc, serialization, and hydration with restful services
+- non-blocking I/O with multi-curl C binding
+- parallel RPC, serialization, and hydration for restful services
