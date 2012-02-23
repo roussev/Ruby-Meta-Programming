@@ -1,0 +1,43 @@
+Title: Writing Beautiful APIs and DSLs in Ruby
+Subtitle: Ruby Metaprogramming & Parallel RPC for Restful APIs
+
+Ruby object model
+- modules
+- singleton class
+- class include and object extend
+- hook methods
+
+Blocks, procs, and lambdas
+- package code to execute later
+- carry variables across method and class scopes
+-currying
+
+Monkey patching
+- examples from Rails
+
+Metaprogramming - code that manipulates itself at runtime
+- introspection 
+- create methods at runtime
+- intercept method call and route calls
+- accept calls to methods that do not exist
+- class_eval and instance_eval
+
+Techniques
+- class macros, examples from Rails
+- calling methods dynamically
+- creating methods dynamically
+- deleting all methods to create Blank Slates
+- ghost methods
+- method_missing(), OpenStruct and dynamic proxies
+- contant_missing and respond_to
+- around alias
+
+Testing and benchmarking - performance anxiety no more
+
+Writing beautiful DSLs
+
+Putting metaprogramming to work
+
+Restful services and API design
+- blocking I/O, threading, and parallelism
+- parallel rpc, serialization, and hydration with restful services
